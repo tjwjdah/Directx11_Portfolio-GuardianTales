@@ -1,0 +1,8 @@
+pch.h
+stdafx.h
+CScriptMgr.h
+targetver.h
+CObjEventScriptMgr.h
+CState_Trace.h
+CState_Idle.h
+CState.h

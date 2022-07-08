@@ -1,0 +1,481 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="pch.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>Default</Filter>
+    </ClInclude>
+    <ClInclude Include="CCameraScript.h">
+      <Filter>ScriptCode</Filter>
+    </ClInclude>
+    <ClInclude Include="CScriptMgr.h" />
+    <ClInclude Include="CObjEventScript.h">
+      <Filter>ScriptCode\ObjEventScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CRedButtonScript.h">
+      <Filter>ScriptCode\ObjectScript\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="CStoneDoorScript.h">
+      <Filter>ScriptCode\ObjectScript\Stone\StoneDoor</Filter>
+    </ClInclude>
+    <ClInclude Include="CPushStoneScript.h">
+      <Filter>ScriptCode\ObjectScript\Stone\PushStone</Filter>
+    </ClInclude>
+    <ClInclude Include="CPushSmallStoneScript.h">
+      <Filter>ScriptCode\ObjectScript\Stone\PushStone</Filter>
+    </ClInclude>
+    <ClInclude Include="CSpeedUpScript.h">
+      <Filter>ScriptCode\ObjectScript\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="CBlockScript.h">
+      <Filter>ScriptCode\ObjectScript\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="CBarbedBlockScript.h">
+      <Filter>ScriptCode\ObjectScript\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="CBreakableStoneScript.h">
+      <Filter>ScriptCode\ObjectScript\Stone\BreakableStone</Filter>
+    </ClInclude>
+    <ClInclude Include="CMapScript.h">
+      <Filter>ScriptCode\MapTile</Filter>
+    </ClInclude>
+    <ClInclude Include="CTileCollsion.h">
+      <Filter>ScriptCode\MapTile\TileCollsion</Filter>
+    </ClInclude>
+    <ClInclude Include="CBombFlowerScript.h">
+      <Filter>ScriptCode\ObjectScript\Etc\Bomb</Filter>
+    </ClInclude>
+    <ClInclude Include="CBombScript.h">
+      <Filter>ScriptCode\ObjectScript\Etc\Bomb</Filter>
+    </ClInclude>
+    <ClInclude Include="CFireWoodScript.h">
+      <Filter>ScriptCode\ObjectScript\Etc\Fire</Filter>
+    </ClInclude>
+    <ClInclude Include="CFireBowlScript.h">
+      <Filter>ScriptCode\ObjectScript\Etc\Fire</Filter>
+    </ClInclude>
+    <ClInclude Include="CObjEventScriptMgr.h" />
+    <ClInclude Include="CEndBlockScript.h">
+      <Filter>ScriptCode\ObjectScript\Block</Filter>
+    </ClInclude>
+    <ClInclude Include="CJumpUpScript.h">
+      <Filter>ScriptCode\ObjectScript\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="CElecTowerScript.h">
+      <Filter>ScriptCode\ObjectScript\Etc\Electric</Filter>
+    </ClInclude>
+    <ClInclude Include="CElecBlockScript.h">
+      <Filter>ScriptCode\ObjectScript\Etc\Electric</Filter>
+    </ClInclude>
+    <ClInclude Include="CElecChildScript.h">
+      <Filter>ScriptCode\ObjectScript\Etc\Electric</Filter>
+    </ClInclude>
+    <ClInclude Include="CMissileScript.h">
+      <Filter>ScriptCode\CharacterScript\CharacterFunctionScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerPosSetScript.h">
+      <Filter>ScriptCode\CharacterScript\CharacterFunctionScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CTargetToAuto.h">
+      <Filter>ScriptCode\CharacterScript\CharacterFunctionScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CFSMScript.h">
+      <Filter>CFSM</Filter>
+    </ClInclude>
+    <ClInclude Include="CState.h">
+      <Filter>CFSM\CState</Filter>
+    </ClInclude>
+    <ClInclude Include="CState_Trace.h">
+      <Filter>CFSM\CState\PublicState\Trace</Filter>
+    </ClInclude>
+    <ClInclude Include="CState_Idle.h">
+      <Filter>CFSM\CState\PublicState\Idle</Filter>
+    </ClInclude>
+    <ClInclude Include="CPlayerScript.h">
+      <Filter>ScriptCode\CharacterScript\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CObjState.h">
+      <Filter>ScriptCode\CharacterScript\Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="CMinotauros.h">
+      <Filter>ScriptCode\CharacterScript\Monster\Minotauros</Filter>
+    </ClInclude>
+    <ClInclude Include="CSapa.h">
+      <Filter>ScriptCode\CharacterScript\Monster\Sapa</Filter>
+    </ClInclude>
+    <ClInclude Include="CRadianDIRScript.h">
+      <Filter>ScriptCode\CharacterScript\CharacterFunctionScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CPosSetTargetScript.h">
+      <Filter>ScriptCode\CharacterScript\CharacterFunctionScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonsterScript.h">
+      <Filter>ScriptCode\CharacterScript\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="CTargetSearchScript.h">
+      <Filter>ScriptCode\CharacterScript\Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="CBugMonsterScript.h">
+      <Filter>ScriptCode\CharacterScript\Monster\Bug</Filter>
+    </ClInclude>
+    <ClInclude Include="CSpinBulletScript.h">
+      <Filter>ScriptCode\CharacterScript\Monster\Bug</Filter>
+    </ClInclude>
+    <ClInclude Include="CDropMissileScript.h">
+      <Filter>ScriptCode\CharacterScript\Monster\Invader</Filter>
+    </ClInclude>
+    <ClInclude Include="CInvaderScript.h">
+      <Filter>ScriptCode\CharacterScript\Monster\Invader</Filter>
+    </ClInclude>
+    <ClInclude Include="CHitScript.h">
+      <Filter>ScriptCode\CharacterScript\CharacterFunctionScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CBtnScript.h">
+      <Filter>ScriptCode</Filter>
+    </ClInclude>
+    <ClInclude Include="CHiteffectScript.h">
+      <Filter>ScriptCode\CharacterScript\CharacterFunctionScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CCharacterSelectScript.h">
+      <Filter>ScriptCode\CharacterScript\CharacterFunctionScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CHPHarScript.h">
+      <Filter>ScriptCode\CharacterScript\CharacterFunctionScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CElecEffectScript.h">
+      <Filter>ScriptCode\ObjectScript\Etc\Electric</Filter>
+    </ClInclude>
+    <ClInclude Include="CDamageFontScript.h">
+      <Filter>ScriptCode\CharacterScript\Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="CCutSceneScript.h">
+      <Filter>ScriptCode\CharacterScript\CharacterFunctionScript</Filter>
+    </ClInclude>
+    <ClInclude Include="CSoundScript.h">
+      <Filter>ScriptCode</Filter>
+    </ClInclude>
+    <ClInclude Include="CTouchScript.h">
+      <Filter>ScriptCode\CharacterScript\Etc</Filter>
+    </ClInclude>
+    <ClInclude Include="CObjTileCol.h">
+      <Filter>ScriptCode\ObjectScript</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Default">
+      <UniqueIdentifier>{e4e4557c-e528-467f-8a45-f0ed293e613c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptCode">
+      <UniqueIdentifier>{1f77e2bc-7650-48f4-8ed5-a35b7b119fd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptCode\ObjectScript">
+      <UniqueIdentifier>{bcb7b891-852d-432a-82f9-ae7e8bea8e0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptCode\ObjEventScript">
+      <UniqueIdentifier>{66244720-4324-465b-a304-74d5ab818220}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptCode\ObjectScript\Button">
+      <UniqueIdentifier>{6311a4f4-76f2-429d-9ac5-6b2d07bc047a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptCode\ObjectScript\Block">
+      <UniqueIdentifier>{54e8d2c9-4987-4ffe-afdd-1f3fe7c9ef9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptCode\ObjectScript\Etc">
+      <UniqueIdentifier>{c297793b-878f-46c5-95b8-cfe7665fecda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptCode\ObjectScript\Stone">
+      <UniqueIdentifier>{4b0be1f6-ee3a-4dfc-8d07-fb394711b7bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptCode\ObjectScript\Stone\BreakableStone">
+      <UniqueIdentifier>{057f1fd7-3962-472f-8ad3-40a910beb34c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptCode\ObjectScript\Stone\PushStone">
+      <UniqueIdentifier>{8d41792e-6dba-40d0-9053-7c5c4cf559a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptCode\ObjectScript\Stone\StoneDoor">
+      <UniqueIdentifier>{a874d686-cb11-4c19-b20c-d95ce4eb8a9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptCode\MonsterScript">
+      <UniqueIdentifier>{c06b2d1a-e74e-4664-9f31-d82d48337bd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptCode\MapTile">
+      <UniqueIdentifier>{4bb0d022-6363-447d-87db-353daaf491fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptCode\MapTile\TileCollsion">
+      <UniqueIdentifier>{c092d1b3-85fa-4047-8c83-085f7755765b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptCode\ObjectScript\Etc\Bomb">
+      <UniqueIdentifier>{959f3a76-b618-4459-8dcc-01f2f4e40eb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptCode\ObjectScript\Etc\Fire">
+      <UniqueIdentifier>{2e2888cf-07a3-46f4-a900-ccace28bdff3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptCode\ObjectScript\Etc\Electric">
+      <UniqueIdentifier>{2dbca48b-a3ee-478c-9763-a83587bf7a58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CFSM">
+      <UniqueIdentifier>{1c7df99e-01f0-4288-a70f-6fabbb7048c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CFSM\CState">
+      <UniqueIdentifier>{2f6c4aa9-9600-4d19-a845-5b73de8f9997}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptCode\CharacterScript">
+      <UniqueIdentifier>{04f6b9cc-62d3-421c-ad9c-7f492d8a9e57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptCode\CharacterScript\Player">
+      <UniqueIdentifier>{3bcb3f81-5af6-4630-9310-71365c3f5275}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptCode\CharacterScript\Monster">
+      <UniqueIdentifier>{84f9dfc6-aea0-4ef8-bf87-eeda69875afb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptCode\CharacterScript\Etc">
+      <UniqueIdentifier>{44b52504-0b43-4862-ac99-9972af260449}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CFSM\CState\PublicState">
+      <UniqueIdentifier>{7bf039bd-e04d-4da4-89f3-4aa63dafb441}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CFSM\CState\PublicState\Idle">
+      <UniqueIdentifier>{ddd6e5cf-ccfa-44fc-a06c-1413921b5f95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CFSM\CState\PublicState\Trace">
+      <UniqueIdentifier>{2c13867f-a47e-4dc5-93bd-46c72a13e4b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CFSM\CState\MonsterState">
+      <UniqueIdentifier>{eb192703-b1f6-49dc-b1ec-b208d3f8d97d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CFSM\CState\PlayerState">
+      <UniqueIdentifier>{6411ff92-bd6e-49fd-93db-fcd87ad01c43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptCode\CharacterScript\CharacterFunctionScript">
+      <UniqueIdentifier>{8a589971-3347-4a8f-846c-9b4ae45a5f6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptCode\CharacterScript\Monster\Minotauros">
+      <UniqueIdentifier>{1dcf7a2a-7b19-40fd-87ad-a06050195d24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptCode\CharacterScript\Monster\Sapa">
+      <UniqueIdentifier>{9dad3005-014d-4664-8be6-96f207b49b96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptCode\CharacterScript\Monster\Bug">
+      <UniqueIdentifier>{ea42212e-c97e-45ef-b469-ad83d12a303f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ScriptCode\CharacterScript\Monster\Invader">
+      <UniqueIdentifier>{0f77b80e-0512-4768-a623-2471ca2d6fe0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>Default</Filter>
+    </ClCompile>
+    <ClCompile Include="CCameraScript.cpp">
+      <Filter>ScriptCode</Filter>
+    </ClCompile>
+    <ClCompile Include="CScriptMgr.cpp" />
+    <ClCompile Include="CObjEventScript.cpp">
+      <Filter>ScriptCode\ObjEventScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CRedButtonScript.cpp">
+      <Filter>ScriptCode\ObjectScript\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="CStoneDoorScript.cpp">
+      <Filter>ScriptCode\ObjectScript\Stone\StoneDoor</Filter>
+    </ClCompile>
+    <ClCompile Include="CPushStoneScript.cpp">
+      <Filter>ScriptCode\ObjectScript\Stone\PushStone</Filter>
+    </ClCompile>
+    <ClCompile Include="CPushSmallStoneScript.cpp">
+      <Filter>ScriptCode\ObjectScript\Stone\PushStone</Filter>
+    </ClCompile>
+    <ClCompile Include="CSpeedUpScript.cpp">
+      <Filter>ScriptCode\ObjectScript\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="CBlockScript.cpp">
+      <Filter>ScriptCode\ObjectScript\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="CBarbedBlockScript.cpp">
+      <Filter>ScriptCode\ObjectScript\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="CBreakableStoneScript.cpp">
+      <Filter>ScriptCode\ObjectScript\Stone\BreakableStone</Filter>
+    </ClCompile>
+    <ClCompile Include="CMapScript.cpp">
+      <Filter>ScriptCode\MapTile</Filter>
+    </ClCompile>
+    <ClCompile Include="CTileCollsion.cpp">
+      <Filter>ScriptCode\MapTile\TileCollsion</Filter>
+    </ClCompile>
+    <ClCompile Include="CBombFlowerScript.cpp">
+      <Filter>ScriptCode\ObjectScript\Etc\Bomb</Filter>
+    </ClCompile>
+    <ClCompile Include="CBombScript.cpp">
+      <Filter>ScriptCode\ObjectScript\Etc\Bomb</Filter>
+    </ClCompile>
+    <ClCompile Include="CFireWoodScript.cpp">
+      <Filter>ScriptCode\ObjectScript\Etc\Fire</Filter>
+    </ClCompile>
+    <ClCompile Include="CFireBowlScript.cpp">
+      <Filter>ScriptCode\ObjectScript\Etc\Fire</Filter>
+    </ClCompile>
+    <ClCompile Include="CObjEventScriptMgr.cpp" />
+    <ClCompile Include="CEndBlockScript.cpp">
+      <Filter>ScriptCode\ObjectScript\Block</Filter>
+    </ClCompile>
+    <ClCompile Include="CJumpUpScript.cpp">
+      <Filter>ScriptCode\ObjectScript\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="CElecTowerScript.cpp">
+      <Filter>ScriptCode\ObjectScript\Etc\Electric</Filter>
+    </ClCompile>
+    <ClCompile Include="CElecBlockScript.cpp">
+      <Filter>ScriptCode\ObjectScript\Etc\Electric</Filter>
+    </ClCompile>
+    <ClCompile Include="CElecChildScript.cpp">
+      <Filter>ScriptCode\ObjectScript\Etc\Electric</Filter>
+    </ClCompile>
+    <ClCompile Include="CMissileScript.cpp">
+      <Filter>ScriptCode\CharacterScript\CharacterFunctionScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerPosSetScript.cpp">
+      <Filter>ScriptCode\CharacterScript\CharacterFunctionScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CTargetToAuto.cpp">
+      <Filter>ScriptCode\CharacterScript\CharacterFunctionScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CFSMScript.cpp">
+      <Filter>CFSM</Filter>
+    </ClCompile>
+    <ClCompile Include="CState.cpp">
+      <Filter>CFSM\CState</Filter>
+    </ClCompile>
+    <ClCompile Include="CState_Trace.cpp">
+      <Filter>CFSM\CState\PublicState\Trace</Filter>
+    </ClCompile>
+    <ClCompile Include="CState_Idle.cpp">
+      <Filter>CFSM\CState\PublicState\Idle</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerAttack.cpp">
+      <Filter>ScriptCode\CharacterScript\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CPlayerScript.cpp">
+      <Filter>ScriptCode\CharacterScript\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="EvaAttack.cpp">
+      <Filter>ScriptCode\CharacterScript\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="GaramAttack.cpp">
+      <Filter>ScriptCode\CharacterScript\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="MarinaAttack.cpp">
+      <Filter>ScriptCode\CharacterScript\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="NariAttack.cpp">
+      <Filter>ScriptCode\CharacterScript\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CObjState.cpp">
+      <Filter>ScriptCode\CharacterScript\Etc</Filter>
+    </ClCompile>
+    <ClCompile Include="CMinotauros.cpp">
+      <Filter>ScriptCode\CharacterScript\Monster\Minotauros</Filter>
+    </ClCompile>
+    <ClCompile Include="MINOATTACKFIREBALL.cpp">
+      <Filter>ScriptCode\CharacterScript\Monster\Minotauros</Filter>
+    </ClCompile>
+    <ClCompile Include="MINOATTACKRUSH.cpp">
+      <Filter>ScriptCode\CharacterScript\Monster\Minotauros</Filter>
+    </ClCompile>
+    <ClCompile Include="MINOATTACKWAVE.cpp">
+      <Filter>ScriptCode\CharacterScript\Monster\Minotauros</Filter>
+    </ClCompile>
+    <ClCompile Include="CSapa.cpp">
+      <Filter>ScriptCode\CharacterScript\Monster\Sapa</Filter>
+    </ClCompile>
+    <ClCompile Include="SAPAATTACKBOBM.cpp">
+      <Filter>ScriptCode\CharacterScript\Monster\Sapa</Filter>
+    </ClCompile>
+    <ClCompile Include="SAPAATTACKORARUSH.cpp">
+      <Filter>ScriptCode\CharacterScript\Monster\Sapa</Filter>
+    </ClCompile>
+    <ClCompile Include="SAPAATTACKJINGAK.cpp">
+      <Filter>ScriptCode\CharacterScript\Monster\Sapa</Filter>
+    </ClCompile>
+    <ClCompile Include="CRadianDIRScript.cpp">
+      <Filter>ScriptCode\CharacterScript\CharacterFunctionScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CPosSetTargetScript.cpp">
+      <Filter>ScriptCode\CharacterScript\CharacterFunctionScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonsterScript.cpp">
+      <Filter>ScriptCode\CharacterScript\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="CTargetSearchScript.cpp">
+      <Filter>ScriptCode\CharacterScript\Etc</Filter>
+    </ClCompile>
+    <ClCompile Include="CBugMonsterScript.cpp">
+      <Filter>ScriptCode\CharacterScript\Monster\Bug</Filter>
+    </ClCompile>
+    <ClCompile Include="CSpinBulletScript.cpp">
+      <Filter>ScriptCode\CharacterScript\Monster\Bug</Filter>
+    </ClCompile>
+    <ClCompile Include="Attack.cpp">
+      <Filter>ScriptCode\CharacterScript\Monster\Bug</Filter>
+    </ClCompile>
+    <ClCompile Include="InOut.cpp">
+      <Filter>ScriptCode\CharacterScript\Monster\Bug</Filter>
+    </ClCompile>
+    <ClCompile Include="Spin.cpp">
+      <Filter>ScriptCode\CharacterScript\Monster\Bug</Filter>
+    </ClCompile>
+    <ClCompile Include="CDropMissileScript.cpp">
+      <Filter>ScriptCode\CharacterScript\Monster\Invader</Filter>
+    </ClCompile>
+    <ClCompile Include="CInvaderScript.cpp">
+      <Filter>ScriptCode\CharacterScript\Monster\Invader</Filter>
+    </ClCompile>
+    <ClCompile Include="GuardDash.cpp">
+      <Filter>ScriptCode\CharacterScript\Monster\Invader</Filter>
+    </ClCompile>
+    <ClCompile Include="InvaderAttack.cpp">
+      <Filter>ScriptCode\CharacterScript\Monster\Invader</Filter>
+    </ClCompile>
+    <ClCompile Include="Thunder.cpp">
+      <Filter>ScriptCode\CharacterScript\Monster\Invader</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoPlayer.cpp">
+      <Filter>ScriptCode\CharacterScript\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CHitScript.cpp">
+      <Filter>ScriptCode\CharacterScript\CharacterFunctionScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CBtnScript.cpp">
+      <Filter>ScriptCode</Filter>
+    </ClCompile>
+    <ClCompile Include="CHiteffectScript.cpp">
+      <Filter>ScriptCode\CharacterScript\CharacterFunctionScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CCharacterSelectScript.cpp">
+      <Filter>ScriptCode\CharacterScript\CharacterFunctionScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CHPHarScript.cpp">
+      <Filter>ScriptCode\CharacterScript\CharacterFunctionScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CElecEffectScript.cpp">
+      <Filter>ScriptCode\ObjectScript\Etc\Electric</Filter>
+    </ClCompile>
+    <ClCompile Include="CDamageFontScript.cpp">
+      <Filter>ScriptCode\CharacterScript\Etc</Filter>
+    </ClCompile>
+    <ClCompile Include="CCutSceneScript.cpp">
+      <Filter>ScriptCode\CharacterScript\CharacterFunctionScript</Filter>
+    </ClCompile>
+    <ClCompile Include="CSoundScript.cpp">
+      <Filter>ScriptCode</Filter>
+    </ClCompile>
+    <ClCompile Include="CTouchScript.cpp">
+      <Filter>ScriptCode\CharacterScript\Etc</Filter>
+    </ClCompile>
+    <ClCompile Include="CObjTileCol.cpp">
+      <Filter>ScriptCode\ObjectScript</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
